@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 400px;
+            background:greenyellow;
+            margin: 200px auto;
+            animation: Rajendra;
+            animation-duration: 10s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: infinite;
+            /* margin-top:200px; */
+            text-align: center;
+            line-height: 400px;
+        }
+        @keyframes Rajendra{
+            0%{
+                transform: rotatez(0deg);
+                
+
+            }
+            100%{
+                  transform: rotate(360deg);
+            }
+        }
+
+        .box1{
+            height: 400px;
+            width: 400px;
+            background:rgb(27, 57, 118);
+            margin: 200px auto; 
+            animation: Rajendra1;
+            animation-duration: 10s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            /* margin-top:400px; */
+            text-align: center;
+            line-height:400px;
+        }
+        @keyframes Rajendra1{
+            0%{
+                transform: rotatez(0deg);
+                
+
+            }
+            100%{
+                  transform:rotate(360deg);
+            }
+        }
+        .box2{
+            height: 400px;
+            width: 400px;
+            background:greenyellow;
+            margin:200px auto;
+            animation: Rajendra2;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            /* margin-top:400px; */
+            text-align: center;
+            line-height:400px;
+            animation-direction: alternate;
+        }
+        @keyframes Rajendra2{
+            0%{
+                transform: translateX(0px);
+
+           
+
+            }    
+            25%{ 
+               background: #129189;
+            }
+            50%{
+                background: rgb(255, 0, 0);
+            
+            }
+            75%{
+                background: #198c2a;
+            }    
+            100%{
+                  transform: translateX(800px);
+            }
+        }
+
+        .box3{
+            height: 400px;
+            width: 400px;
+            background:greenyellow;
+            margin:200px;
+            animation: Rajendra3;
+            animation-duration: 5s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: infinite;
+            /* margin-top:400px; */
+            text-align: center;
+            line-height:400px;
+            animation-direction: alternate;
+        }
+        @keyframes Rajendra3{
+            0%{
+                transform: translateX(0px);
+                
+
+            }
+            50%{
+                background: rgb(176, 30, 93);
+            }
+            100%{
+                  transform: translateX(800px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Hello</div>
+    <div class="box1">How are you</div>
+    <div class="box2">i'm fine</div>
+    <div class="box3">i'm fine and you</div>
+</body>
+</html>
